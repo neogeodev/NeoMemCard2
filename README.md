@@ -7,8 +7,7 @@ Open Hardware NeoGeo memory card
 * neomemcard2_no_ss : Without "NeoGeo" logo silkscreen
 
 # Operation
-The switch allows to select one of the 16kB banks. The NeoGeo system ROM can only handle max. 16kB memory cards.
-The 32kB FRAM chip can be replaced by older and maybe cheaper Ramtron 8kB FM16W08's, no need for the switch and pull-up resistor R1 in that case.
+The switch allows to select one of the two 16kB banks. The NeoGeo system ROM can only handle max. 16kB memory cards.
 
 The LED turns on as soon as the card is powered. When a game is saved, the LED turns off briefly.
 
@@ -27,4 +26,11 @@ The LED turns on as soon as the card is powered. When a game is saved, the LED t
 | U1      | 32kBytes parallel FRAM  | 877-FM28V020-SG      |
 | U2      | 74LVC2G04 dual inverter | 771-74LVC2G14GWQ100H |
 
-R3's value can be changed to adjust LED brightness.
+# Notes
+The 74LVC2G04 is in a small package, it may be challenging to solder.
+
+The 32kB FRAM chip can be replaced by older and maybe cheaper Ramtron 8kB FM16W08's, no need for the switch and pull-up resistor R1 in that case.
+
+R3's value can be changed to adjust the LED's brightness.
+
+Use electraical tape or a piece of adhesive vinyl sheet to cover the components. Not doing so may result in their tearing by the plastic ridges inside the console during insertion or removal of the card.
