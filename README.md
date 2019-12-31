@@ -33,7 +33,7 @@ The 32kB FRAM chip can be replaced by older and maybe cheaper Ramtron 8kB FM16W0
 
 R3's value can be changed to adjust the LED's brightness.
 
-Use electraical tape or a piece of adhesive vinyl sheet to cover the components. Not doing so may result in their tearing by the plastic ridges inside the console during insertion or removal of the card.
+Use electrical tape or a piece of adhesive vinyl sheet to cover the components. Not doing so may result in their tearing by the plastic ridges inside the console during insertion or removal of the card.
 
 # License and guarantee
 
