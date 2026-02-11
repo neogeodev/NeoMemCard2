@@ -7,9 +7,9 @@ Open Hardware NeoGeo memory card
 * neomemcard2_no_ss : Without "NeoGeo" logo silkscreen
 
 # Operation
-The switch allows to select one of the two 16kB banks. The NeoGeo system ROM can only handle max. 16kB memory cards.
+The switch allows to select one of the two 16kB banks. The NeoGeo system ROM can only handle max. 16kB memory cards, so you have to manually switch between the two to use the full capacity.
 
-The LED turns on as soon as the card is powered. When a game is saved, the LED turns off briefly.
+The LED turns on as soon as the card is powered. When a game is saved, the LED turns off briefly to show the write operation.
 
 # BOM
 | PCB Ref | Manufacturer/Desc       | Mouser Ref           |
@@ -27,9 +27,11 @@ The LED turns on as soon as the card is powered. When a game is saved, the LED t
 | U2      | 74LVC2G04 dual inverter | 771-74LVC2G14GWQ100H |
 
 # Notes
+PCB is two layer 0.8mm FR4. No need for gold plating.
+
 The 74LVC2G04 is in a small package, it may be challenging to solder.
 
-The 32kB FRAM chip can be replaced by older and maybe cheaper Ramtron 8kB FM16W08's, no need for the switch and pull-up resistor R1 in that case.
+The 32kB FRAM chip can be replaced by older and maybe cheaper Ramtron 8kB FM16W08's, no need for the switch and the pull-up resistor R1 in that case.
 
 R3's value can be changed to adjust the LED's brightness.
 
@@ -38,4 +40,5 @@ Use electrical tape or a piece of adhesive vinyl sheet to cover the components. 
 # License and guarantee
 
 In general, if you plan on using **free** and open source files which (as clearly stated by section 16 of the LICENSE file) don't come with any kind of guarantee and even less any kind of contractual service since they're basically **a gift**.
+
 
