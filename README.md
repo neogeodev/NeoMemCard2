@@ -37,6 +37,5 @@ Use electrical tape or a piece of adhesive vinyl sheet to cover the components. 
 
 # License and guarantee
 
-In general, if you plan on using **free** and open source files which (as clearly stated by section 16 of the LICENSE file) don't come with any kind of guarantee and even less any kind of contractual service since they're basically **a gift**, please don't be like some dude named Andreas P. and feel entitled to obtain lengthy e-mail assistance and blame me for frying 30€ worth of chips because there was a mistake in the component list and you didn't check it yourself.
+In general, if you plan on using **free** and open source files which (as clearly stated by section 16 of the LICENSE file) don't come with any kind of guarantee and even less any kind of contractual service since they're basically **a gift**.
 
-Imagine how much of an ass you'd sound like if you expected excuses from your aunt for mixing up salt with pepper in the recipe she gave you for your cake selling stand.
